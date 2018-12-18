@@ -1,0 +1,21 @@
+{
+  "name": "product_gallery",
+  "version": "1.0.0",
+  "description": "Галлерея изображений товара",
+  "author": "LiquidHub.ru",
+  "type": "snippets",
+  "homepage": "https://github.com/insales-components/product_gallery",
+  "props": {
+    "common": false,
+    "liquid": true
+  },
+  "plugins": [
+    {
+      "name": "fancybox",
+      "files": ["https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.6/jquery.fancybox.min.css", "https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.6/jquery.fancybox.min.js"]
+    }
+  ],
+  "dependencies": {
+    "slider": "https://github.com/insales-components/slider"
+  }
+}
