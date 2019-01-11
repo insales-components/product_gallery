@@ -9,13 +9,10 @@
     "common": false,
     "liquid": true
   },
-  "plugins": [
-    {
-      "name": "fancybox",
-      "files": ["https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.6/jquery.fancybox.min.css", "https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.6/jquery.fancybox.min.js"]
-    }
-  ],
+  "plugins": [],
   "dependencies": {
-    "slider": "https://github.com/insales-components/slider"
+    "modal": "https://github.com/insales-components/modal",
+    "slider": "https://github.com/insales-components/slider",
+    "stickers": "https://github.com/insales-components/stickers"
   }
 }

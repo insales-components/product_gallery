@@ -1,0 +1,17 @@
+.gallery-thumbs-wrap {
+  position: relative;
+  padding: 0 30px;
+}
+
+.gallery-top {
+  position: relative;
+  margin-bottom: 1em;
+}
+
+.gallery-thumbs-wrap .swiper-slide {
+  border: 1px solid transparent;
+}
+
+.gallery-thumbs-wrap .swiper-slide-thumb-active {
+  border: 1px solid #e2e5ea;
+}
