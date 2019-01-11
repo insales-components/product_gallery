@@ -24,7 +24,7 @@ function galleryInit(wrapper) {
     });
     var galleryTop = new Swiper(galleryMain, {
       spaceBetween: 10,
-      loop:true,
+      loop: false,
       loopedSlides: 5, //looped slides should be the same
       navigation: {
         nextEl: '.swiper-button-next',

@@ -1,3 +1,5 @@
+{% assign gallery_count = gallery_count | default: 0 | plus: 1 %}
+
 <div class="gallery-wrapper">
 
 {% include "stickers" %}
@@ -10,7 +12,7 @@
         {% if image.title.size > 0 %}
           {% capture gallery_title %}title="{{ image.title }}"{% endcapture %}
         {% endif %}
-          <a href="{{ image.original_url }}" data-fancybox="gallery" class="swiper-slide gallery-slide" {{ gallery_title }}>
+          <a href="{{ image.original_url }}" data-fancybox="gallery{{ product.id }}{{gallery_count}}" class="swiper-slide gallery-slide" {{ gallery_title }}>
             {% assign img_title = product.title | escape| replace: '"', '&#34' | replace: '"', '&#34' %}
             <div class="gallery-thumb image-container is-square">
               <span class="image-flex-center">
